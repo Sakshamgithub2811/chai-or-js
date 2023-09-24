@@ -21,4 +21,4 @@ let state = null
 // object
 
 console.log(typeof null);  // datatype => object
-console.log(typeof undefined); //datatype => undefined
+console.log(typeof undefined); //datatype =>  undefined

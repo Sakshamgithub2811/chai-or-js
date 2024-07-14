@@ -10,15 +10,18 @@ let age = 20 //number
 let isLoggedIn = false // bool
 let state = null  
 /* datatypes */
-// number
+// number 
 // bigint
 // string // prefer=>"" 
 // boolean
 // null => standalone value 
 // undefined => values is not assigned 
-// symbol 
+// symbol =>unique 
+// Nan
 
 // object
 
 console.log(typeof null);  // datatype => object
 console.log(typeof undefined); //datatype =>  undefined
+
+// ecmascript spcifiction 

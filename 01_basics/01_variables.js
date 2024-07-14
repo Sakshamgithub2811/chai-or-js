@@ -1,17 +1,19 @@
-// constat declare -> const 
-// variables decalre -> let or var 
-
 const accountId = 144553;
 let accountEmail = "saksham@google.com";
 var accountPassword = "12345";
-accountCity = "jaipur";
-let accountState;
+accountCity = "jaipur"
+let accountState ;
 
 
-// accountId = 2; not allowed 
-accountEmail = "sa@gamilc.com"
-console.log(accountId);
-console.table([accountEmail,accountId,accountPassword,accountCity,accountState])
+// accountId = 3; not allowed
 
-// Prefer not to use var because of issue in block scope and functional scope . 
- 
+// accountEmail = "hc@hc.com";   Block Scope
+// console.log(accountEmail); reassignment allowed
+
+// accountPassword = "4321";     Functional Scope
+// console.log(accountPassword); reassignment allowed 
+
+// accountCity = "gwalior";   Without keyword allowed also 
+// console.log(accountCity);  reassgnemnt allowed
+
+// console.log(accountState); undefined answer 

@@ -34,13 +34,16 @@
 // /
 // %
 
-let str1 = "hitesh";
-let str2 = "hello";
-console.log(str1+str2);
+// let str1 = "hitesh";
+// let str2 = "hello";
+// console.log(str1+str2);
 
-console.log("1"+2);
-console.log(1+"2");
-console.log("1" +2+2);
-console.log(1+2+"2");
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1" +2+2);
+// console.log(1+2+"2");
+
+console.log(+true);
+console.log(+"");
 
 

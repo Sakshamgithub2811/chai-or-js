@@ -17,7 +17,6 @@ let state = null
 // null => standalone value 
 // undefined => values is not assigned 
 // symbol =>unique 
-// Nan
 
 // object
 

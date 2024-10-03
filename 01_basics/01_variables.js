@@ -1,19 +1,16 @@
-const accountId = 144553;
-let accountEmail = "saksham@google.com";
-var accountPassword = "12345";
-accountCity = "jaipur"
-let accountState ;
+const accountId = 144553
+let accountEmail = "hitesh@google.com"  
+var accountPassword = "12345" 
+accountCity = "Jaipur"
 
 
-// accountId = 3; not allowed
+// accountId = 2 not allowed 
+accountEmail = "fdsafa.com"
+accountPassword = "34232";
+accountCity = "bengaluru"
+console.log(accountId);
+console.table([accountId,accountEmail,accountPassword,accountCity]);
 
-// accountEmail = "hc@hc.com";   Block Scope
-// console.log(accountEmail); reassignment allowed
-
-// accountPassword = "4321";     Functional Scope
-// console.log(accountPassword); reassignment allowed 
-
-// accountCity = "gwalior";   Without keyword allowed also 
-// console.log(accountCity);  reassgnemnt allowed
-
-// console.log(accountState); undefined answer 
+// Prefer not to use var because of issue on block scope and functional scope 
+// let -> block scope 
+// var -> functional scope 
